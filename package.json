@@ -1,0 +1,22 @@
+{ "type": "module",
+  "name": "users",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.0",
+    "nanoid": "^5.0.7",
+    "nodemon": "^3.1.2",
+    "path": "^0.12.7"
+  }
+}
